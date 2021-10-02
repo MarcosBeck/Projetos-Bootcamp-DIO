@@ -1,0 +1,38 @@
+/*
+
+Theme Name: Site de Receitas
+Author: Marcos Beck
+Description: Teste de uso do CSS, utilização de estilos basicos
+Nota: Não repare na bagunça, minha skill no css é bem melhor do que isso ;) 
+
+--------------------------------------------
+ESTRUTURAÇÃO BASE (HC Desenvolvimentos v1)
+--------------------------------------------
+**** GERAL
+**** BODY
+**** HEADER
+**** FOOTER
+**** PÁGINA INICIAL
+**** EXTRAS
+**** @media
+
+*/
+
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:Arial,sans-serif;
+    outline: none;
+    list-style: none;
+    font-style: normal;
+}
+
+/* BODY */
+/* HEADER */
+/* FOOTER */
+/* PAGINA INICIAL */
+/* EXTRAS */
+/* MEDIA QUERY */
