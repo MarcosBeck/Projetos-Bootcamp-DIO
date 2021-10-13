@@ -1,0 +1,85 @@
+/* display flex*/
+.flex{
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+}
+.item{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+}
+
+/* flex direction*/
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    max-width: 300px;
+}
+.flex-item{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.row-reverse li{
+    background-color: brown;
+}
+.collum{
+    flex-direction: column;
+}
+.collum-reverse{
+    flex-direction: column-reverse;
+}
+.collum-reverse li{
+    background-color: brown;
+}
+
+/* flex wrap */
+.flex-wrap-container{
+ display: flex;
+ height: 150px;
+ border: 2px solid black;
+ max-width: 300px;;
+}
+.flex-wrap-item{
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    min-width: 100px;
+    line-height: 50px;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: greenyellow;
+}
+.purple{
+    background-color: purple;
+}
+.pink{
+    background-color: rgb(172, 0, 94);
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
